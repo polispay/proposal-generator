@@ -1,13 +1,13 @@
-var Bitcore = require('bitcore-lib-dash');
+var Bitcore = require('bitcore-lib-polis');
 
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.dashevo.org';
-var mainnetPrefix = '/insight-api-dash';
+var mainnetProvider = 'https://insight.polisevo.org';
+var mainnetPrefix = '/insight-api-polis';
 
-var testnetProvider = 'https://testnet-insight.dashevo.org';
-var testnetPrefix = '/insight-api-dash';
+var testnetProvider = 'https://testnet-insight.polisevo.org';
+var testnetPrefix = '/insight-api-polis';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
