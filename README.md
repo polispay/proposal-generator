@@ -1,6 +1,6 @@
-# Dash Proposal Generator
+# Polis Proposal Generator
 
-[![Build Status](https://travis-ci.org/polisevo/proposal-generator.svg?branch=master)](https://travis-ci.org/polisevo/proposal-generator)
+[![Build Status](https://travis-ci.org/polispay/proposal-generator.svg?branch=master)](https://travis-ci.org/polispay/proposal-generator)
 
 ## Get Started
 
