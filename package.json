@@ -1,5 +1,5 @@
 {
-  "name": "govobject-proposal",
+  "name": "proposal-generator",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polisevo/govobject-proposal.git"
+    "url": "git+https://github.com/polispay/proposal-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/polisevo/govobject-proposal/issues"
+    "url": "https://github.com/polispay/proposal-generator/issues"
   },
-  "homepage": "https://github.com/polisevo/govobject-proposal#readme",
+  "homepage": "https://github.com/polispay/proposal-generator#readme",
   "devDependencies": {
-    "bitcore-lib-polis": "^0.15.0",
+    "bitcore-lib-polis": "latest",
     "browserify": "^14.3.0",
     "eslint": "^4.8.0"
   }
