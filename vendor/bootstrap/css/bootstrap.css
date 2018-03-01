@@ -705,7 +705,7 @@ th {
 .glyphicon-fullscreen:before {
   content: "\e140";
 }
-.glyphicon-dashboard:before {
+.glyphicon-polisboard:before {
   content: "\e141";
 }
 .glyphicon-paperclip:before {
@@ -3505,7 +3505,7 @@ tbody.collapse.in {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px dashed;
+  border-top: 4px polised;
   border-top: 4px solid \9;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
@@ -3623,7 +3623,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
-  border-bottom: 4px dashed;
+  border-bottom: 4px polised;
   border-bottom: 4px solid \9;
 }
 .dropup .dropdown-menu,

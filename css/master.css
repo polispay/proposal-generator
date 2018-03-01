@@ -7,6 +7,10 @@
 body {
   background-image: url("../images/background.png");
   font-family: 'Montserrat', sans-serif;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 textarea {
@@ -65,7 +69,7 @@ i.fa {
 
 }
 
-#dash_logo {
+#polis_logo {
   width: 150px;
   height: auto;
 }
