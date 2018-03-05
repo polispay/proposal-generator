@@ -11,7 +11,7 @@ function PaymentCycle(gov, provider, prefix) {
     this.provider = provider;
     this.prefix = prefix;
     this.paymentCycle = 16616;
-    this.proposalMaturity = 16616; // ~(60*24*3)/2.6 = about three days
+    this.proposalMaturity = 1662; // ~(60*24*3)/2.6 = about three days
     this.budgetCycles = 24;
 
     this.selectedStartIndex = 0;
