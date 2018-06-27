@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/polispay/proposal-generator#readme",
   "devDependencies": {
-    "bitcore-lib-polis": "latest",
+    "poliscore-lib": "^8.2.3",
     "browserify": "^14.3.0",
     "eslint": "^4.8.0"
   }
