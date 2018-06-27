@@ -1,4 +1,4 @@
-var Bitcore = require('bitcore-lib-polis');
+var Bitcore = require('poliscore-lib');
 
 var socket;
 var paymentCycle;
