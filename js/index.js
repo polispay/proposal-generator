@@ -6,7 +6,7 @@ var paymentCycle;
 var mainnetProvider = 'https://insight.polispay.org';
 var mainnetPrefix = '/api';
 
-var testnetProvider = 'https://testnet-insight.polispay.org';
+var testnetProvider = 'http://192.81.214.232:3001';
 var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
@@ -60,7 +60,7 @@ $(document).ready(function() {
     $('#end_epoch').change(function() {
         updateTotal();
     });
-    
+
     $('#payment_amount').on('input',function(){
       //As of now, core doesn't handle comma, but handle dots. Therefore we change it to the user.
       var payment_amount_value = $('#payment_amount').val();
