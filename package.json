@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-prebuils" : "./node_modules/.bin/browserify js/index.js > ./vendor/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/browserify js/index.js > ./vendor/index.js",
+    "start" : "node server.js",
     "linebreak-check": "./node_modules/.bin/eslint --rule 'linebreak-style: [\"error\", \"unix\"]' js/"
   },
   "repository": {
@@ -22,5 +24,8 @@
     "poliscore-lib": "^8.2.3",
     "browserify": "^14.3.0",
     "eslint": "^4.8.0"
+  },
+  "dependencies": {
+    "node-static": "^0.7.10"
   }
 }
