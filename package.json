@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild" : "browserify js/index.js > ./vendor/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify js/index.js > ./vendor/index.js",
+    "build": "./node_modules/.bin/browserify js/index.js > ./vendor/index.js",
     "start" : "node server.js",
     "linebreak-check": "./node_modules/.bin/eslint --rule 'linebreak-style: [\"error\", \"unix\"]' js/"
   },
