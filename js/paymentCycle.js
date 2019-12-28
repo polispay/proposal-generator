@@ -44,7 +44,7 @@ function PaymentCycle(gov, provider, prefix) {
     };
 
     this.getInfo(function(err, res) {
-        self.blockHeight = res.info.blocks;
+        self.blockHeight = res.backend.blocks;
         console.log("current blockheight: " + self.blockHeight);
 
         self.updateDropdowns();
