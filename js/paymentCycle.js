@@ -59,7 +59,7 @@ PaymentCycle.prototype.getBlockTimestamp = function(block) {
     var blocks = block - this.blockHeight;
     var now = Math.floor(Date.now());
 
-    return (now + (blocks * (155 * 1000))); // 155 seconds per block x 1000 = ms per block
+    return (now + (blocks * (120 * 1000))); // 155 seconds per block x 1000 = ms per block
 };
 
 PaymentCycle.prototype.getTimeDifference = function(opts, start, end) {

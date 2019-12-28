@@ -3,7 +3,7 @@ var Bitcore = require('poliscore-lib');
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.polispay.org';
+var mainnetProvider = 'https://blockbook.polispay.org';
 var mainnetPrefix = '/api';
 
 var testnetProvider = 'http://192.81.214.232:3001';
@@ -136,7 +136,7 @@ $(document).ready(function() {
         var transaction = $(this).val().trim();
         var txListener = new TXListener(socket, paymentCycle.provider, paymentCycle.prefix, transaction);
 
-        // check if tx exists in insight
+        // check if tx exists in blockbook
         txListener.getTx(function(err, res) {
             if(err) {
                 console.log("Error:", err);
