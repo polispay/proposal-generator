@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/browserify js/index.js > ./vendor/index.js",
-    "start" : "node server.js",
+    "start": "node server.js",
     "linebreak-check": "./node_modules/.bin/eslint --rule 'linebreak-style: [\"error\", \"unix\"]' js/"
   },
   "repository": {
@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/polispay/proposal-generator#readme",
   "devDependencies": {
-    "poliscore-lib": "^8.2.3",
     "browserify": "^14.3.0",
-    "eslint": "^4.8.0"
+    "eslint": "^4.8.0",
+    "poliscore-lib": "^8.2.3"
   },
   "dependencies": {
-    "node-static": "^0.7.10"
+    "node-static": "^0.7.10",
+    "socket.io-client": "^2.3.0"
   }
 }

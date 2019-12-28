@@ -15,7 +15,7 @@ var init = function(network, provider, prefix) {
 
     paymentCycle = new PaymentCycle(gov, provider, prefix);
 
-    socket = io(provider);
+    var socket = require('socket.io-client')(provider);
 
     socket.on('connect', function() {
         socket.emit('subscribe', 'inv');
